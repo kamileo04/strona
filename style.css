@@ -324,6 +324,7 @@ p {
 
 .zainteresowania ul {
     display: grid;
+    left: 0;
     grid-template-columns: repeat(4, 1fr);
 
 }
@@ -338,6 +339,23 @@ p {
     color: #119DF2;
 }
 
+.kursy ul {
+    display: grid;
+    left: 0;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.kursy ul li {
+    list-style: none;
+    font-weight: 500;
+
+}
+
+.kursy .fa {
+    color: #119DF2;
+}
+
 @media (max-width: 1000px) {
     .container {
 
@@ -347,6 +365,10 @@ p {
     }
 
     .zainteresowania ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .kursy ul {
         grid-template-columns: repeat(2, 1fr);
     }
 }
