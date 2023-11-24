@@ -192,6 +192,7 @@ body {
     letter-spacing: 1px;
     padding-bottom: 40px;
     line-height: 30px;
+    list-style-type: none;
 }
 
 .procent {
@@ -362,11 +363,8 @@ p {
 
 .zainteresowania ul {
     display: grid;
-
     margin-left: -40px;
     grid-template-columns: repeat(4, 1fr);
-
-
 }
 
 .zainteresowania ul li {
