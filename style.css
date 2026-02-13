@@ -117,7 +117,7 @@ body {
 
 .kontakt ul {
     list-style-type: none;
-    padding-bottom: 40px
+    padding-bottom: 40px;
 }
 
 .kontakt a {
@@ -315,7 +315,7 @@ p {
 
 .zainteresowania {
     padding-left: 10px;
-    padding-bottom: 40px
+    padding-bottom: 40px;
 }
 
 .zainteresowania ul {
@@ -365,7 +365,7 @@ p {
 }
 
 .pfsa {
-    padding-left: 50px
+    padding-left: 50px;
 }
 
 .fa {
