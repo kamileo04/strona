@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
     <link rel="icon" type="image/svg+xml" href="logo.svg">
 </head>
@@ -14,7 +16,7 @@
 
 <body>
     <div class="container">
-        <div class="lewa" style=background:#011526>
+        <div class="lewa">
 
             <div class="profil">
                 <div class="zdjecie">
@@ -28,7 +30,8 @@
                 <ul>
                     <li>
                         <span class="ikona"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                        <span class="tekst"><a href="mailto:kamil.j.kowalski@gmail.com">kamil.j.kowalski@gmail.com</a></span>
+                        <span class="tekst"><a
+                                href="mailto:kamil.j.kowalski@gmail.com">kamil.j.kowalski@gmail.com</a></span>
                     </li>
                     <li>
                         <span class="ikona"><i class="fa fa-mobile" aria-hidden="true"></i></span>
@@ -36,7 +39,8 @@
                     </li>
                     <li>
                         <span class="ikona"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                        <span class="tekst"><a href="https://pl.linkedin.com/in/kamil-kowalski-7a9429260">kamil-kowalski</a></span>
+                        <span class="tekst"><a
+                                href="https://pl.linkedin.com/in/kamil-kowalski-7a9429260">kamil-kowalski</a></span>
                     </li>
                     <li>
                         <span class="ikona"><i class="fa fa-map-o" aria-hidden="true"></i></span>
@@ -50,7 +54,7 @@
                     <li>
                         <h5>2019 - 2022</h5>
                         <h4>Klasa mat - fiz - inf</h4>
-                        <h4>V Liceum Ogólnokształcące w Bielsku - Białej</h4>
+                        <h4>V Liceum Ogólnokształcące <br>w Bielsku - Białej</h4>
                     </li>
                     <li>
                         <h5>2023 - obecnie</h5>
@@ -64,30 +68,44 @@
                 <ul>
                     <li>
                         <span class="tekst"> <span class="fi fi-gb"></span> Angielski</span>
-                        <span class="procent">
-                            <div class="ang" style="width: 80%"></div>
-                        </span>
+                        <span class="poziom">B2</span>
                     </li>
 
 
                     <li>
                         <span class="tekst"> <span class="fi fi-de"></span> Niemiecki</span>
-                        <span class="procent2">
-                            <div class="nie" style="width: 40%"></div>
-                        </span>
+                        <span class="poziom">A2</span>
                     </li>
                 </ul>
             </div>
 
         </div>
 
-        <div class="prawa" style=background:white>
+        <div class="prawa">
             <div class="omnie">
                 <h2 class="tytul2">O mnie</h2>
-                <p>Jestem ambitnym studentem informatyki z zamiłowaniem do analizy danych oraz piłki nożnej. Chciałbym rozwijać się w obszarze skautingu zawodników, aby móc wykorzystać swoją wiedzę w praktyce i wspierać innowacyjne projekty.</p>
+                <p>Jestem ambitnym studentem informatyki z zamiłowaniem do analizy danych oraz piłki nożnej. Chciałbym
+                    rozwijać się w obszarze analizy danych oraz skautingu zawodników, aby móc wykorzystać swoją wiedzę w
+                    praktyce i wspierać
+                    innowacyjne projekty.</p>
+                <p style="margin-top: 10px;">Tworzę zaawansowane narzędzia skautingowe wykorzystujące Computer
+                    Vision oraz buduję interaktywne dashboardy w Streamlit. W swojej pracy efektywnie wykorzystuję
+                    narzędzia Generative AI do przyspieszania procesu developmentu i rozwiązywania złożonych problemów
+                    technicznych.</p>
             </div>
             <div class="omnie">
                 <h2 class="tytul2">Doświadczenie</h2>
+                <div class="box">
+                    <div class="rokfirmy">
+                        <h5>2025 - obecnie</h5>
+                        <h5>TS Podbeskidzie S.A.</h5>
+                    </div>
+                    <div class="tekst">
+                        <h4 style="text-transform: uppercase;">Wsparcie Techniczne Wideo</h4>
+                        <p>Realizacja nagrań meczowych, streaming obrazu na żywo do sztabu szkoleniowego, obsługa
+                            sprzętu wideo i sieciowego.</p>
+                    </div>
+                </div>
                 <div class="box">
                     <div class="rokfirmy">
                         <h5>1.07.2022 - 31.08.2022</h5>
@@ -101,38 +119,34 @@
             </div>
             <div class="umiejetnosci">
                 <h2 class="tytul2">Umiejętności</h2>
-                <div class="box">
-                    <h4>Html</h4>
-                    <div class="procent3"></div>
+
+                <div class="skill-category">
+                    <h4>Języki i Technologie</h4>
+                    <p>Python (Pandas, NumPy, Polars), SQL, Docker, Git, AI-Assisted Dev</p>
                 </div>
 
-                <div class="box">
-                    <h4>CSS</h4>
-                    <div class="procent4"></div>
+                <div class="skill-category">
+                    <h4>Wizualizacja Danych</h4>
+                    <p>Streamlit, Matplotlib, Seaborn, Plotly</p>
                 </div>
 
-                <div class="box">
-                    <h4>C++</h4>
-                    <div class="procent5"></div>
+                <div class="skill-category">
+                    <h4>Machine Learning & CV</h4>
+                    <p>OpenCV, YOLO, Scikit-learn, Roboflow</p>
                 </div>
-                <div class="box">
-                    <h4>Vegas</h4>
-                    <div class="procent6"></div>
-                </div>
-                <div class="box">
-                    <h4>Office 365</h4>
-                    <div class="procent7"></div>
+
+                <div class="skill-category">
+                    <h4>Data Engineering</h4>
+                    <p>Web Scraping (Selenium, BS4), ETL, Data Cleaning</p>
                 </div>
             </div>
             <div class="zainteresowania">
                 <h2 class="tytul2">Zainteresowania</h2>
                 <ul>
                     <li><i class="fa fa-futbol-o" aria-hidden="true"></i> Piłka nożna</li>
-                    <li><i class="fa fa-music" aria-hidden="true"></i> Muzyka</li>
+                    <li><i class="fa fa-music" aria-hidden="true"></i> Słuchanie muzyki</li>
                     <li><i class="fa fa-suitcase" aria-hidden="true"></i> Podróże</li>
-                    <li><i class="fa fa-pencil" aria-hidden="true"></i><a href="https://tomygorale.pl">To my górale</a></li>
-                </ul>
-                </li>
+                    <li><i class="fa fa-music" aria-hidden="true"></i> Gra na pianinie</li>
                 </ul>
             </div>
             <div class="kursy">
@@ -140,18 +154,30 @@
                 <ul>
                     <li><i class="fa fa-car" aria-hidden="true"></i> Prawo jazdy kat. B</li>
                     <li><i class="fa fa-camera" aria-hidden="true"></i> Uprawnienia pilota drona A1/A3</li>
+                    <li><i class="fa fa-server" aria-hidden="true"></i> CCNA: Podstawy przełączania, routingu i
+                        łączności bezprzewodowej</li>
+                    <li><i class="fa fa-certificate" aria-hidden="true"></i> Szkolenie wprowadzające do kursu SKAUT PZPN
+                        B</li>
                     <li><i class="fa fa-futbol-o" aria-hidden="true"></i> Kursy PFSA:
                         <ul>
-                            <li class="pfsa"><a href="https://pfsa.talentlms.com/user/certification/sig:eh-rCuvtNxyTchnvn6St8A.UjVvSW0xK3k2dWZCS0hhaW5XU0hZZz09">Level 1 Data Analysis in Football</a< /li>
-                            <li class="pfsa"><a href="https://pfsa.talentlms.com/user/certification/sig:fMyJuDURc_SZ0ZZniuknJA.TzhpSk5NbzdBK3pnTU52ZzBWRmhDZz09">Level 1 Opposition Analysis in Football</a< /li>
-                            <li class="pfsa"><a href="https://pfsa.talentlms.com/user/certification/sig:Ge1nDzF1-xl-sNqI5XAMJA.Z2RSeHNGSmlGVjJHVllLbUN2MDNaZz09">Level 1 Talent Identification in Football</a< /li>
-                            <li class="pfsa"><a href="https://pfsa.talentlms.com/user/certification/sig:dms9BwQkopR2CVwqxkrLPw.QVJjUllGcmVKTXloaTBjU2tORHBXZz09">Level 1 Technical Scouting in Football</a< /li>
-                            <li class="pfsa"><a href="https://pfsa.talentlms.com/user/certification/sig:GlCbZEIGqQHt1tSeRqw8Xg.V05TNG5WNkhnR0Zja3pEeXk3TjhrUT09">Level 1 Performance Analysis In Football</a< /li>
+                            <li class="pfsa"><a
+                                    href="https://pfsa.talentlms.com/user/certification/sig:eh-rCuvtNxyTchnvn6St8A.UjVvSW0xK3k2dWZCS0hhaW5XU0hZZz09">Level
+                                    1 Data Analysis in Football</a< /li>
+                            <li class="pfsa"><a
+                                    href="https://pfsa.talentlms.com/user/certification/sig:fMyJuDURc_SZ0ZZniuknJA.TzhpSk5NbzdBK3pnTU52ZzBWRmhDZz09">Level
+                                    1 Opposition Analysis in Football</a< /li>
+                            <li class="pfsa"><a
+                                    href="https://pfsa.talentlms.com/user/certification/sig:Ge1nDzF1-xl-sNqI5XAMJA.Z2RSeHNGSmlGVjJHVllLbUN2MDNaZz09">Level
+                                    1 Talent Identification in Football</a< /li>
+                            <li class="pfsa"><a
+                                    href="https://pfsa.talentlms.com/user/certification/sig:dms9BwQkopR2CVwqxkrLPw.QVJjUllGcmVKTXloaTBjU2tORHBXZz09">Level
+                                    1 Technical Scouting in Football</a< /li>
+                            <li class="pfsa"><a
+                                    href="https://pfsa.talentlms.com/user/certification/sig:GlCbZEIGqQHt1tSeRqw8Xg.V05TNG5WNkhnR0Zja3pEeXk3TjhrUT09">Level
+                                    1 Performance Analysis In Football</a< /li>
 
                         </ul>
                     </li>
-                </ul>
-                </li>
                 </ul>
             </div>
         </div>
@@ -161,4 +187,3 @@
 </body>
 
 </html>
-<!-- marginesy do poprawnienia, kursy się rozjeżdżają dodać ikonkę, zmienić kolor linka, 
